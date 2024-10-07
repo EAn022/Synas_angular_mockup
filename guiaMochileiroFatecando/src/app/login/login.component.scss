@@ -1,14 +1,18 @@
+// section{
+//     max-height: 600px;
+// }
+
 // tamanho do formulário
 #container-form {
     min-width: 300px;
-    max-width: 600px; 
+    max-width: 430px; 
     padding: 20px;  
 }
 
 // tamanho da imagem
 #container-image {
     flex-basis: 50%;  // A imagem ocupa 50% do container
-    max-width: 800px; 
+    max-width: 600px; 
 }
 
 // imagem não ultrapasse o tamanho do container
