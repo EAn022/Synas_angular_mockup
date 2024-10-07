@@ -1,7 +1,9 @@
+// formulário não segue o tamanho do pai
 form{
     width: 100%;
 }
 
+// configuração de fonte e cores
 p, h1, label, input, a, ::placeholder{
     font-family: 'Poppins', sans-serif;
   }
@@ -27,6 +29,7 @@ button{
     background-color: #21BC6B;
     font-size: 24px;
     font-weight: 700;
+    border: none;
 }
 
 p{
