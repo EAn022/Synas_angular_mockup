@@ -5,24 +5,39 @@
 </div>
 <!-- formulário -->
 <form>
+    <!-- input nome -->
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label ">Nome</label>
+        <input type="email" class="form-control" id="exampleInputEmail1">
+        </div>
+
     <!-- input email -->
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label ">E-mail</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="exampleInputEmail1" placeholder="Digite seu e-mail">
+    <input type="email" class="form-control" id="exampleInputEmail1">
     </div>
+
     <!-- input senha -->
     <div class="mb-3 position-relative">
     <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+    <input type="password" class="form-control" id="password">
     <!-- Ícone posicionado como elemento independente -->
-    <img src="assets/icons/lock-close-icon.svg" alt="Ícone de cadeado" class="icon-password">
+    <img src="assets/icons/lock-open-icon.svg" alt="Ícone de cadeado" class="icon-password">
     </div>
 
+    <!-- input confirme senha -->
+    <div class="mb-3 position-relative">
+        <label for="exampleInputPassword1" class="form-label">Confirme sua senha</label>
+        <input type="password" class="form-control" id="password">
+        <!-- Ícone posicionado como elemento independente -->
+        <img src="assets/icons/lock-close-icon.svg" alt="Ícone de cadeado" class="icon-password">
+        </div>
+
     <div class="d-grid gap-2 mt-4">
-    <button class="btn btn-primary " routerLink="./home">Entrar</button>
+    <button class="btn btn-primary " routerLink="/home">Cadastrar</button>
     </div>
     
 </form>
-<p class="text-center mt-4">Ainda não possui conta <a routerLink="./register">Cadastrar-se</a></p>
+<p class="text-center mt-4">Já possui conta? <a routerLink="/">Entrar</a></p>
   
     
