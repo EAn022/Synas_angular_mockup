@@ -1,0 +1,6 @@
+// corrige o padding superior em telas menores que 1100px
+@media screen and (max-width: 1100px) {
+    img{
+       padding-top: 40px;
+    }
+}
