@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
 import { LoginFormComponent } from '../login-form/login-form.component';
 import { LoginImageComponent } from '../login-image/login-image.component';
 
@@ -7,7 +6,6 @@ import { LoginImageComponent } from '../login-image/login-image.component';
   selector: 'app-login',
   standalone: true,
   imports: [ 
-    RouterModule,
     LoginFormComponent,
     LoginImageComponent
    ],

@@ -1,0 +1,40 @@
+form{
+    width: 100%;
+}
+
+p, h1, label, input, a, ::placeholder{
+    font-family: 'Poppins', sans-serif;
+  }
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+label{
+    color: #858E97;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder{
+    color: #CDD4DA;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button{
+    background-color: #21BC6B;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p{
+    color: #858E97;
+}
+
+a{
+    color:#21BC6B;
+    text-decoration: none;
+}
+

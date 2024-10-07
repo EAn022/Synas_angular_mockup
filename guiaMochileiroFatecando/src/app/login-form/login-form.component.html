@@ -1,18 +1,23 @@
-<p>login-form works!</p>
-<form>
+
+<div class="justify-content-center align-items-center text-center">
+  <img src="assets/images/logo-green.svg" alt="a green bag logo">
+  <h1 class="mt-4" >Guia do Mochileiro</h1>
+  <h1>Fatecando</h1>
+</div>
+<form >
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <label for="exampleInputEmail1" class="form-label ">E-mail</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="exampleInputEmail1" placeholder="Digite seu e-mail">
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+      <label for="exampleInputPassword1" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="Dpassword" placeholder="Digite sua senha">
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="d-grid gap-2 mt-4">
+      <button class="btn btn-primary " routerLink="./home">Entrar</button>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    
   </form>
+  <p class="text-center mt-4">Ainda não possui conta <a routerLink="./register">Cadastrar-se</a></p>
+
   
