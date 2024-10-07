@@ -1,19 +1,40 @@
+// configuração de fonte e cores
+p, h1, h2, h3, label, input, a, ::placeholder{
+    font-family: 'Poppins', sans-serif;
+  }
+
+//   navbar
 #navbar{
     background-color: #21BC6B;
     min-height: 92px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #logo{
-    padding-left: 30px;
     display: flex;
     gap: 20px;
 }
 
-.logo-text{
-    
+h3{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
 }
 
 #hamburguer-button{
     border: none;
     padding-right: 30px;
+}
+
+// lista de itens
+.navbar-nav{
+    gap: 20px;
+}
+
+a{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
 }
