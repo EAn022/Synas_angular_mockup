@@ -17,23 +17,23 @@
     <input type="email" class="form-control" id="exampleInputEmail1">
     </div>
 
-    <!-- input senha -->
-    <div class="mb-3 position-relative">
-        <label for="exampleInputPassword1" class="form-label">Senha</label>
-        <!-- O type é vinculado dinamicamente ao estado da senha -->
-        <input [type]="getPasswordInputType()" class="form-control input-with-icon" id="password">
-        <!-- A imagem é clicável e seu src é vinculado ao ícone -->
-        <img [src]="passwordIcon" alt="Ícone de cadeado" class="icon-password" (click)="togglePasswordVisibility()">
-    </div>
+    <!-- input senha 1 -->
+  <div class="mb-3 position-relative">
+    <label for="exampleInputPassword1" class="form-label">Senha</label>
+    <!-- O type é vinculado dinamicamente ao estado da senha -->
+    <input [type]="getPasswordInputType(1)" class="form-control input-with-icon" id="password1">
+    <!-- A imagem é clicável e seu src é vinculado ao ícone -->
+    <img [src]="passwordIcon1" alt="Ícone de cadeado" class="icon-password" (click)="togglePasswordVisibility(1)">
+  </div>
 
-    <!-- input confirme senha -->
-    <div class="mb-3 position-relative">
-        <label for="exampleInputPassword1" class="form-label">Confirme sua senha</label>
-        <!-- O type é vinculado dinamicamente ao estado da senha -->
-        <input [type]="getPasswordInputType2()" class="form-control input-with-icon" id="password">
-        <!-- A imagem é clicável e seu src é vinculado ao ícone -->
-        <img [src]="passwordIcon" alt="Ícone de cadeado" class="icon-password" (click)="togglePasswordVisibility2()">
-    </div>
+  <!-- input confirmar senha 2 -->
+  <div class="mb-3 position-relative">
+    <label for="exampleInputPassword2" class="form-label">Confirme a Senha</label>
+    <!-- O type é vinculado dinamicamente ao estado da senha -->
+    <input [type]="getPasswordInputType(2)" class="form-control input-with-icon" id="password2">
+    <!-- A imagem é clicável e seu src é vinculado ao ícone -->
+    <img [src]="passwordIcon2" alt="Ícone de cadeado" class="icon-password" (click)="togglePasswordVisibility(2)">
+  </div>
 
     <div class="d-grid gap-2 mt-4">
     <button class="btn btn-primary " routerLink="/home">Cadastrar</button>
