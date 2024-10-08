@@ -1,0 +1,82 @@
+// configuração de fonte e cores
+p, h1, h2, h3,h4, label, input, a, ::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 80px;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #7A7786;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+    background-color: #21BC6B;
+    color: white;
+    justify-content: center;
+    padding: 20px 24px 20px 24px;
+    p{
+        margin: 0;
+    }
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 120px;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 48px; 
+
+    .card{
+        width: 330px;
+        height: 220px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+        h4{
+            font-size: 30px;
+            font-weight: 500;
+        }
+       
+    }
+}
+
+@media only screen and (max-width:900px) {
+    section{
+        margin-left: 36px;
+        margin-right: 36px;
+        padding-top: 80px;
+    }
+
+    #subtitle{
+        display: block !important; 
+        
+        .btn-wrapper{
+            display: flex;
+            justify-content: end;
+            margin-top: 36px;
+            
+            .btn{
+                max-width: 190px;
+                gap: 10px;
+                padding: 20px 14px 20px 14px;
+            }
+        }
+    }
+}
+
+

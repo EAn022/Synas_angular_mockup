@@ -38,3 +38,14 @@ a{
     font-weight: 300;
     color: white;
 }
+
+@media only screen and (max-width: 800px) {
+    #navbar{
+        padding-left: 16px;
+        padding-right: 4px;
+    }
+
+    .hamburguer-button{
+        padding: 0;
+    }
+}
