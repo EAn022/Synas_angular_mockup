@@ -38,7 +38,8 @@ h3{
     gap: 120px;
     justify-content: center;
     align-items: center;   
-    margin-top: 48px; 
+    margin-top: 80px;
+    margin-bottom: 48px; 
 
     .card{
         width: 330px;
@@ -46,12 +47,31 @@ h3{
         margin: auto;
         justify-content: center;
         align-items: center;
+        box-shadow: 2px 2px 8px gray;
 
         h4{
             font-size: 30px;
             font-weight: 500;
         }
-       
+    }
+
+    #card-1{
+        background-color: #E2F4C5 ;
+    }
+    #card-2{
+        background-color: #EEE7DA;
+    }
+    #card-3{
+        background-color: #A5DD9B;
+    }
+    #card-4{
+        background-color: #C5EBAA;
+    }
+    #card-5{
+        background-color: #FFFFDD;
+    }
+    #card-6{
+        background-color: #AFC8AD;
     }
 }
 
